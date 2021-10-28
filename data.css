@@ -21,6 +21,22 @@ t{
     line-height: 28px;
     cursor: default;
 }
+c{
+    font-family: Arial;
+    color:white;
+    font-size: 1.25em;
+    margin-left: 8px;
+    line-height: 28px;
+    cursor: default;
+}
+ret{
+    font-family: Arial;
+    color:white;
+    font-size: 1.25em;
+    margin-left: 12.5px;
+    line-height: 30px;
+    cursor: default;
+}
 a{
     text-decoration: none;
     color: white;
@@ -84,10 +100,17 @@ a{
     margin-left: 130px;
     margin-top: -40px;
 }
+#logodn{
+    margin-left: 150px;
+    margin-top: -14px;
+}
+#logotn{
+    margin-top: -14px;
+}
 #home{
     height: 640px;
     width: 360px;
-    background-color:rgb(41, 36, 36);
+    background-color:rgb(225, 0, 255);
     border-radius: 5px;
 }
 #chat{
@@ -99,8 +122,17 @@ a{
     margin-left: 93px;
     margin-top: 50px;
 }
+#mario{
+    width: 360px;
+    height: 202.5px;
+    background-image: url(./assets/non-mario.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
 .a{
     color: white;
+    margin-top: 150px;
 }
 
 
@@ -109,7 +141,7 @@ a{
 
 #logoc{
     margin-left: 155px;
-    margin-top: -15px;
+    margin-top: 0px;
 }
 #guerrier{
     width: 100px;
@@ -120,9 +152,14 @@ a{
     border-radius: 11px;
     margin-left: 25px;
 }
-#guerrier:hover{
-    width: 100px;
-    height: 100px;
+#descriptionguerrier{
+    width: 949px;
+    height: 629px;
+    background-image: url(./assets/Gurrier.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: -500px;
+    margin-top: -50px;
 }
 #assassin{
     width: 101px;
@@ -134,6 +171,15 @@ a{
     margin-left: 234px;
     margin-top: -100px;
 }
+#descriptionassassin{
+    width: 949px;
+    height: 629px;
+    background-image: url(./assets/Assassin.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: -500px;
+    margin-top: -50px;
+}
 #archer{
     width: 100px;
     height: 100px;
@@ -143,6 +189,15 @@ a{
     border-radius: 12px;
     margin-left: 25px;
     margin-top: 25px;
+}
+#descriptionarcher{
+    width: 949px;
+    height: 629px;
+    background-image: url(./assets/Archer.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: -500px;
+    margin-top: -50px;
 }
 #ingenieur{
     width: 100px;
@@ -154,6 +209,15 @@ a{
     margin-top: -100px;
     margin-left: 234px;
 }
+#descriptioningenieur{
+    width: 949px;
+    height: 629px;
+    background-image: url(./assets/Ingénieur.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: -500px;
+    margin-top: -50px;
+}
 #faucheur{
     width: 100px;
     height: 100px;
@@ -164,10 +228,19 @@ a{
     margin-left: 25px;
     margin-top: 25px;
 }
+#descriptionfaucheur{
+    width: 949px;
+    height: 629px;
+    background-image: url(./assets/Faucheur.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: -500px;
+    margin-top: -50px;
+}
 #samourai{
     width: 100px;
     height: 100px;
-    background-image: url(./assets/Fichier_8.png);
+    background-image: url(./assets/Samourai.png);
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 11px;
@@ -193,4 +266,23 @@ a{
     border-radius: 11px;
     margin-top: -100px;
     margin-left: 234px;
+}
+
+
+
+#retour{
+    width: 85px;
+    height: 30px;
+    background-image: url(./assets/Rectangle\ 25.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    margin-top: -120px;
+    margin-left: 135px;
+}
+#retour:hover{
+    background-image: url(./assets/Rectangle\ 26.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color:black;
 }
