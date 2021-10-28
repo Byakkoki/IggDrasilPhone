@@ -1,0 +1,193 @@
+h1{
+    font-family: Arial;
+    font-size: 2em;
+    color: white;
+    margin-left: 15%;
+    line-height: 50px;
+}
+j{
+    font-family: Arial;
+    color:white;
+    font-size: 1.25em;
+    margin-left: 12.5px;
+    line-height: 28px;
+    cursor: default;
+}
+t{
+    font-family: Arial;
+    color:white;
+    font-size: 1.25em;
+    margin-left: 12.5px;
+    line-height: 28px;
+    cursor: default;
+}
+c{
+    font-family: Arial;
+    color:white;
+    font-size: 1.25em;
+    margin-left: 7.5px;
+    line-height: 28px;
+    cursor: default;
+}
+#re1{
+    width: 85px;
+    height: 30px;
+    background-color: yellow;
+    background-image: url(./assets/Rectangle\ 13.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 25px;
+    border-radius: 12px;
+}
+#re2{
+    width: 85px;
+    height: 30px;
+    background-color: yellow;
+    background-image: url(./assets/Rectangle\ 13.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 250px;
+    margin-top: -30px;
+    border-radius: 12px;
+}
+#re3{
+    width: 85px;
+    height: 30px;
+    background-color: yellow;
+    background-image: url(./assets/Rectangle\ 13.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 135px;
+    margin-top: 10px;
+    border-radius: 12px;
+}
+#re1:hover{
+    background-image: url(./assets/Rectangle\ 16.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color:black;
+}
+#re2:hover{
+    background-image: url(./assets/Rectangle\ 16.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color:black;
+}
+#re3:hover{
+    background-image: url(./assets/Rectangle\ 16.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color:black;
+}
+#IggDrasil{
+    height: 55px;
+    width: 360px;
+    background-color: rgb(228, 150, 32);
+    border-radius: 0px 0px 10px 10px;
+}
+#logo{
+    margin-left: 130px;
+    margin-top: -40px;
+}
+#home{
+    height: 640px;
+    width: 360px;
+    background-color:rgb(41, 36, 36);
+    border-radius: 5px;
+}
+
+
+/*Classe IggDrasil*/
+
+
+#logoc{
+    margin-left: 150px;
+    margin-top: -15px;
+}
+#guerrier{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    background-image: url(./assets/Plan_de_travail_1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 11px;
+    margin-left: 25px;
+}
+#assassin{
+    width: 101px;
+    height: 100px;
+    background-color: yellow;
+    background-image: url(./assets/Fichier_9.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 11px;
+    margin-left: 234px;
+    margin-top: -100px;
+}
+#archer{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    background-image: url(./assets/Fichier_10.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+#ingenieur{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    background-image: url(./assets/Ingenieur.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 11px;
+    margin-top: -100px;
+    margin-left: 234px;
+}
+#faucheur{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    background-image: url(./assets/Fichier_8.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 11px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+#samourai{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    background-image: url(./assets/Fichier_8.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 11px;
+    margin-top: -100px;
+    margin-left: 234px;
+}
+#benediction{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    background-image: url(./assets/Benediction.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 11px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+#cauchemar{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    background-image: url(./assets/Cauchemar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 11px;
+    margin-top: -100px;
+    margin-left: 234px;
+}
