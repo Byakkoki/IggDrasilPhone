@@ -21,18 +21,15 @@ t{
     line-height: 28px;
     cursor: default;
 }
-c{
+a{
+    text-decoration: none;
+    color: white;
     font-family: Arial;
-    color:white;
-    font-size: 1.25em;
-    margin-left: 7.5px;
-    line-height: 28px;
     cursor: default;
 }
 #re1{
     width: 85px;
     height: 30px;
-    background-color: yellow;
     background-image: url(./assets/Rectangle\ 13.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -42,8 +39,7 @@ c{
 #re2{
     width: 85px;
     height: 30px;
-    background-color: yellow;
-    background-image: url(./assets/Rectangle\ 13.png);
+    background-image: url(./assets/Rectangle\ 24.png);
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 250px;
@@ -53,8 +49,7 @@ c{
 #re3{
     width: 85px;
     height: 30px;
-    background-color: yellow;
-    background-image: url(./assets/Rectangle\ 13.png);
+    background-image: url(./assets/Rectangle\ 19.png);
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 135px;
@@ -62,19 +57,19 @@ c{
     border-radius: 12px;
 }
 #re1:hover{
-    background-image: url(./assets/Rectangle\ 16.png);
+    background-image: url(./assets/Rectangle\ 20.png);
     background-size: contain;
     background-repeat: no-repeat;
     color:black;
 }
 #re2:hover{
-    background-image: url(./assets/Rectangle\ 16.png);
+    background-image: url(./assets/Rectangle\ 23.png);
     background-size: contain;
     background-repeat: no-repeat;
     color:black;
 }
 #re3:hover{
-    background-image: url(./assets/Rectangle\ 16.png);
+    background-image: url(./assets/Rectangle\ 17.png);
     background-size: contain;
     background-repeat: no-repeat;
     color:black;
@@ -95,29 +90,43 @@ c{
     background-color:rgb(41, 36, 36);
     border-radius: 5px;
 }
+#chat{
+    width: 184px;
+    height: 232px;
+    background-image: url(./assets/smiling-cat-creepy-cat.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 93px;
+    margin-top: 50px;
+}
+.a{
+    color: white;
+}
 
 
 /*Classe IggDrasil*/
 
 
 #logoc{
-    margin-left: 150px;
+    margin-left: 155px;
     margin-top: -15px;
 }
 #guerrier{
     width: 100px;
     height: 100px;
-    background-color: yellow;
     background-image: url(./assets/Plan_de_travail_1.png);
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 11px;
     margin-left: 25px;
 }
+#guerrier:hover{
+    width: 100px;
+    height: 100px;
+}
 #assassin{
     width: 101px;
     height: 100px;
-    background-color: yellow;
     background-image: url(./assets/Fichier_9.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -128,7 +137,6 @@ c{
 #archer{
     width: 100px;
     height: 100px;
-    background-color: yellow;
     background-image: url(./assets/Fichier_10.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -139,7 +147,6 @@ c{
 #ingenieur{
     width: 100px;
     height: 100px;
-    background-color: yellow;
     background-image: url(./assets/Ingenieur.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -150,7 +157,6 @@ c{
 #faucheur{
     width: 100px;
     height: 100px;
-    background-color: yellow;
     background-image: url(./assets/Fichier_8.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -161,7 +167,6 @@ c{
 #samourai{
     width: 100px;
     height: 100px;
-    background-color: yellow;
     background-image: url(./assets/Fichier_8.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -172,7 +177,6 @@ c{
 #benediction{
     width: 100px;
     height: 100px;
-    background-color: yellow;
     background-image: url(./assets/Benediction.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -183,7 +187,6 @@ c{
 #cauchemar{
     width: 100px;
     height: 100px;
-    background-color: yellow;
     background-image: url(./assets/Cauchemar.png);
     background-size: contain;
     background-repeat: no-repeat;
